@@ -1,17 +1,166 @@
-<div class="border-top"></div>
-<div class="flex flex-col flex-auto w-full page-background">
-    <div class="flex flex-wrap w-full max-w-screen-xl mx-auto p-6 md:p-4">
-        <div class="grid grid-cols-1 xl:grid-cols-1 gap-8 w-full mt-4">
-            <!-- Recent transactions table -->
-            <div class="xl:col-span-2 flex flex-col flex-auto card-color bg-card shadow rounded-2xl overflow-hidden mb-18 mb-18">
-                <div class="p-6 flex items-center">
-                    <div class="mr-auto -mt-2">
-                        Projects
+<div class="flex flex-col w-full bg-gray-50">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-16">
+        <!-- Page Title -->
+        <div class="text-center mb-10">
+            <h1 class="text-5xl sm:text-6xl font-bold text-white">Projects</h1>
+            <hr class="border-t mt-4 max-w-xs mx-auto border-white">
+        </div>
+
+        <!-- Professional Projects Section -->
+        <section class="bg-white p-6 rounded-2xl shadow-md">
+            <h2 class="text-center text-4xl sm:text-5xl font-bold text-gray-900 mb-6">Professional Projects</h2>
+            <hr class="border-t mb-6">
+
+            <!-- Card Wrapper -->
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-inner space-y-8">
+                <!-- Project 1 Card -->
+                <div class="relative p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    style="background-color: #3a3a3d;">
+                    <div class="absolute -top-3 -left-3 text-white text-xs px-3 py-1 rounded-full font-semibold shadow-lg"
+                        style="background-color: #3a3a3d; border: 2px solid white; box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);">
+                        Project 1
                     </div>
+                    <div class="mb-4">
+                        <h3 class="text-2xl font-semibold text-white mb-1">Enrich Learn – Confidential EdTech
+                            Application</h3>
+                    </div>
+                    <p class="text-white text-justify mb-4">
+                        Contributed to the development of a secure, multi-role educational management system at Hobbies
+                        Lobbies.
+                        The platform, Enrich Learn, supported five distinct user types—Admin, Superadmin, Teacher,
+                        Librarian, and Student. Each role had dedicated features and dashboards for optimized workflows.
+                        Note: The platform is for internal use only and details are confidential.
+                    </p>
+                    <ul class="list-disc list-inside space-y-1 text-white text-sm">
+                        <li>Developed Angular components and routing for each user role.</li>
+                        <li>Created responsive UI layouts tailored for both mobile and desktop views.</li>
+                        <li>Integrated with NestJS and MySQL to build scalable APIs and secure data layers.</li>
+                        <li>Implemented access control and reusable frontend modules.</li>
+                    </ul>
                 </div>
-                <div class="overflow-x-auto mx-6">
+
+                <!-- Project 2 Card -->
+                <div class="relative p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    style="background-color: #3a3a3d;">
+                    <div class="absolute -top-3 -left-3 text-white text-xs px-3 py-1 rounded-full font-semibold shadow-lg"
+                        style="background-color: #3a3a3d; border: 2px solid white; box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);">
+                        Project 2
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="text-2xl font-semibold text-white mb-1">Rent Fatafat – Rental Listing Website</h3>
+                    </div>
+                    <p class="text-white text-justify mb-4">
+                        Worked on designing and enhancing the responsive layout for RentFatafat.com using HTML, CSS, and
+                        media queries.
+                        Contributed to mobile-first design, implemented form submission logic for contact emails,
+                        and configured social integration and SEO optimizations.
+                    </p>
+                    <ul class="list-disc list-inside space-y-1 text-white text-sm">
+                        <li>Created custom breakpoints for responsive UI on mobile, tablet, and desktop.</li>
+                        <li>Handled contact email logic from client to server.</li>
+                        <li>Connected contact and social sections to backend processing.</li>
+                        <li>Tested and adjusted layout consistency across browsers and screen sizes.</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 Card -->
+                <div class="relative p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    style="background-color: #3a3a3d;">
+                    <div class="absolute -top-3 -left-3 text-white text-xs px-3 py-1 rounded-full font-semibold shadow-lg"
+                        style="background-color: #3a3a3d; border: 2px solid white; box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);">
+                        Project 3
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="text-2xl font-semibold text-white mb-1">Enrich Learn Website – Blog UI Development
+                        </h3>
+                    </div>
+                    <p class="text-white text-justify mb-4">
+                        Designed and implemented the blog page for EnrichLearn.com using HTML, CSS, and JavaScript.
+                        Focused on dynamic UI rendering based on data fetched from backend APIs and styled for
+                        consistency.
+                    </p>
+                    <ul class="list-disc list-inside space-y-1 text-white text-sm">
+                        <li>Used vanilla HTML, CSS, and JavaScript for UI rendering and interactivity.</li>
+                        <li>Fetched and displayed blog posts dynamically using API calls.</li>
+                        <li>Improved visual consistency across the blog interface.</li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Personal Projects Section -->
+        <section class="bg-white p-6 rounded-2xl shadow-md">
+            <h2 class="text-center text-4xl sm:text-5xl font-bold text-gray-900 mb-6">Personal Projects</h2>
+            <hr class="border-t mb-6">
+
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-inner space-y-8">
+                <!-- Personal Project 1 -->
+                <div class="relative p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    style="background-color: #3a3a3d;">
+                    <!-- Project Badge -->
+                    <div class="absolute -top-3 -left-3 text-white text-xs px-3 py-1 rounded-full font-semibold shadow-lg"
+                        style="background-color: #3a3a3d; border: 2px solid white; box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);">
+                        Project 1
+                    </div>
+
+                    <!-- Title and Link Badge -->
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-semibold text-white mb-2">Resume Builder Web App</h3>
+
+                        <!-- Link Badge placed just below title with spacing -->
+                        <div class="text-white text-xs px-3 py-1 rounded-full font-semibold shadow-lg"
+                            style="background-color: #3a3a3d; border: 2px solid white; box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3); display: inline-block;">
+                            <a href="https://mohan-807.github.io/resume-generator-frontend/login"
+                                class="no-underline text-white" target="_blank">Click Me.....!</a>
+                        </div>
+                    </div>
+
+                    <!-- Description -->
+                    <p class="text-white text-justify mb-4">
+                        Developed a resume builder platform allowing users to design and generate resumes interactively.
+                        Includes dynamic layout creation, section customization, and PDF export functionality.
+                    </p>
+
+                    <!-- Features -->
+                    <ul class="list-disc list-inside space-y-1 text-white text-sm">
+                        <li>Built in Angular with form-driven data handling.</li>
+                        <li>Responsive layout editor simulating A4 sheet structure.</li>
+                        <li>Template preview with custom backgrounds and grid alignment.</li>
+                        <li>Export to print-friendly formats (PDF/image).</li>
+                        <li>Frontend deployed on GitHub Pages.</li>
+                    </ul>
+                </div>
+
+
+
+                <!-- Personal Project 2 -->
+                <div class="relative p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    style="background-color: #3a3a3d;">
+                    <div class="absolute -top-3 -left-3 text-white text-xs px-3 py-1 rounded-full font-semibold shadow-lg"
+                        style="background-color: #3a3a3d; border: 2px solid white; box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);">
+                        Project 2
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="text-2xl font-semibold text-white mb-1">Portfolio Website – Personal Showcase
+                            Platform</h3>
+                    </div>
+                    <p class="text-white text-justify mb-4">
+                        Designed and developed this portfolio website to present my professional background, resume, and
+                        personal projects.
+                        The platform features modular sections like About, Resume, Projects, and Contact — each crafted
+                        with a
+                        responsive and accessible UI for optimal viewing across devices.
+                    </p>
+                    <p class="text-white font-semibold text-lg mb-4">You're currently viewing this project — this entire
+                        website is the result of that development.</p>
+                    <ul class="list-disc list-inside space-y-1 text-white text-sm">
+                        <li>Built using Angular for modularity and scalability.</li>
+                        <li>Implemented Tailwind CSS for design and layout control.</li>
+                        <li>Created interactive page transitions using Angular routing.</li>
+                        <li>Deployed on GitHub Pages for live access.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
 </div>
