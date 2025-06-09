@@ -1,0 +1,49 @@
+.example-container {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.example-sideNav-content {
+    padding: 20px;
+    width: 100%;
+}
+
+.example-sideNav {
+    box-shadow: 0px 0px 10px white;
+    width: 20%;
+    background-color: #28282B;
+}
+
+.mat-sideNav-container {
+    height: calc(100vh - 64px);
+}
+
+.mat-toolbar {
+    position: relative;
+    z-index: 5;
+}
+
+.content-padding {
+    padding: 24px;
+}
+
+.background-black{
+    background-color: #28282B;
+}
+
+app-header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 4rem;
+    z-index: 2;
+}
+
+.side-nav {
+    top: 4rem;
+    background-color: #28282B;
+}

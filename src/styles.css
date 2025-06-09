@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.icon-button {
+    border: none !important;
+    background-color: transparent;
+}
+
+.icon-size {
+    font-size: 1.75rem;
+}
+.icon-white mat-icon {
+    color: white !important; 
+}
+.page-background,
+.mat-tab-body.mat-tab-body-active {
+    background-color: #28282B;
+}
+
+.card-color {
+    background-color: white;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

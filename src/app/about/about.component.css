@@ -1,0 +1,5 @@
+.responsive-image {
+    width: 100%; /* Set the width as a percentage */
+    height: 100%; /* Set the height as a percentage */
+    object-fit: contain; /* Ensure the image maintains aspect ratio */
+}

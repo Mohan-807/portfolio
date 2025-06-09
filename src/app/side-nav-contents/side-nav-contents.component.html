@@ -1,0 +1,21 @@
+<div class="sideNav-header">
+  <img src="assets/inoske.jpeg" class="profile-image" />
+  <div class="header-text text-white mb-4">
+    <h1>Mohan</h1>
+    <span>Software Developer</span>
+  </div>
+</div>
+<div class="border-top"></div>
+<mat-nav-list>
+  <div *ngFor="let item of menuItems">
+    <mat-list-item >
+      <a class="custom-list-item mt-4 mb-4"
+         [routerLink]="item.route"
+         routerLinkActive="active-link">
+        <mat-icon class="custom-icon">{{ item.icon }}</mat-icon>
+        <span>{{ item.label }}</span>
+      </a>
+    </mat-list-item>
+    <div class="border-top mt-2 mb-2"></div>
+  </div>
+</mat-nav-list>
