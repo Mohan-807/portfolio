@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ResumeComponent {
 
   openPdf(): void {
-    const pdfUrl = 'assets/Mohan_resume.pdf'; // Path to the PDF file
+    const pdfUrl = 'assets/Mohan-Resume.pdf'; // Path to the PDF file
     window.open(pdfUrl, '_blank'); // Open the PDF in a new tab
   }
 }
